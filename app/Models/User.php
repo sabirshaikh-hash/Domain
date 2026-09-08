@@ -57,6 +57,11 @@ class User extends Authenticatable
         return $this->role === 'employee';
     }
 
+    public function isAccounts()
+    {
+        return $this->role === 'accounts';
+    }
+
     public static function getAdminEmails()
     {
         $emails = self::where('role', 'superadmin')->pluck('email')->toArray();

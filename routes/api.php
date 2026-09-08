@@ -36,6 +36,12 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::middleware('employee')->prefix('employee')->group(function () {
         Route::apiResource('domains', \App\Http\Controllers\Employee\DomainController::class)->only(['index', 'show', 'update']);
         Route::apiResource('payments', \App\Http\Controllers\Employee\PaymentController::class);
+        Route::apiResource('purchase-invoices', \App\Http\Controllers\PurchaseInvoiceController::class);
+    });
+
+    // Accounts Routes
+    Route::middleware('accounts')->prefix('accounts')->group(function () {
+        Route::apiResource('purchase-invoices', \App\Http\Controllers\PurchaseInvoiceController::class);
     });
 });
 
