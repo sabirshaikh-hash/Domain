@@ -17,7 +17,7 @@ class AuthController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|unique:users',
             'password' => 'required|string|min:8|confirmed',
-            'role' => 'required|string|in:manager,employee',
+            'role' => 'required|string|in:manager,employee,accounts',
             'branch_id' => 'required|exists:branches,id',
             'phone_number' => 'required|string|max:20',
         ]);
@@ -39,6 +39,14 @@ class AuthController extends Controller
                 'branch_id' => $request->branch_id,
             ]);
         } elseif ($request->role === 'employee') {
+            \App\Models\Employee::create([
+                'user_id' => $user->id,
+                'name' => $user->name,
+                'email' => $user->email,
+                'phone_number' => $request->phone_number,
+                'branch_id' => $request->branch_id,
+            ]);
+        } elseif ($request->role === 'accounts') {
             \App\Models\Employee::create([
                 'user_id' => $user->id,
                 'name' => $user->name,

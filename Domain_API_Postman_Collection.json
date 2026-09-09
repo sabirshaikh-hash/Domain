@@ -1,1 +1,2593 @@
-{"variable":[{"key":"base_url","value":"http:\/\/localhost"}],"info":{"name":"2026_09_08_175730_laravel_collection.json","schema":"https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"},"item":[{"name":"api\/register","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/register","host":["{{base_url}}"],"path":["api","register"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/login","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/login","host":["{{base_url}}"],"path":["api","login"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/logout","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/logout","host":["{{base_url}}"],"path":["api","logout"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/domains\/bulk-update","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/domains\/bulk-update","host":["{{base_url}}"],"path":["api","domains","bulk-update"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/domains","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/domains","host":["{{base_url}}"],"path":["api","domains"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/domains","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/domains","host":["{{base_url}}"],"path":["api","domains"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/domains\/{domain}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/domains\/:domain","host":["{{base_url}}"],"path":["api","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/domains\/{domain}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/domains\/:domain","host":["{{base_url}}"],"path":["api","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/domains\/{domain}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/domains\/:domain","host":["{{base_url}}"],"path":["api","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/domains\/{domain}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/domains\/:domain","host":["{{base_url}}"],"path":["api","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/branches","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/branches","host":["{{base_url}}"],"path":["api","admin","branches"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/branches","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/branches","host":["{{base_url}}"],"path":["api","admin","branches"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/branches\/{branch}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/branches\/:branch","host":["{{base_url}}"],"path":["api","admin","branches",":branch"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/branches\/{branch}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/branches\/:branch","host":["{{base_url}}"],"path":["api","admin","branches",":branch"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/branches\/{branch}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/branches\/:branch","host":["{{base_url}}"],"path":["api","admin","branches",":branch"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/branches\/{branch}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/branches\/:branch","host":["{{base_url}}"],"path":["api","admin","branches",":branch"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/users","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/users","host":["{{base_url}}"],"path":["api","admin","users"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/users","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/users","host":["{{base_url}}"],"path":["api","admin","users"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/users\/{user}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/users\/:user","host":["{{base_url}}"],"path":["api","admin","users",":user"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/users\/{user}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/users\/:user","host":["{{base_url}}"],"path":["api","admin","users",":user"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/users\/{user}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/users\/:user","host":["{{base_url}}"],"path":["api","admin","users",":user"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/users\/{user}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/users\/:user","host":["{{base_url}}"],"path":["api","admin","users",":user"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/payments","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/payments","host":["{{base_url}}"],"path":["api","admin","payments"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/payments","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/payments","host":["{{base_url}}"],"path":["api","admin","payments"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/payments\/{payment}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/payments\/:payment","host":["{{base_url}}"],"path":["api","admin","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/payments\/{payment}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/payments\/:payment","host":["{{base_url}}"],"path":["api","admin","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/payments\/{payment}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/payments\/:payment","host":["{{base_url}}"],"path":["api","admin","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/payments\/{payment}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/payments\/:payment","host":["{{base_url}}"],"path":["api","admin","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/purchase-invoices","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/purchase-invoices","host":["{{base_url}}"],"path":["api","admin","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/purchase-invoices","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/purchase-invoices","host":["{{base_url}}"],"path":["api","admin","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/purchase-invoices\/{purchase_invoice}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","admin","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/purchase-invoices\/{purchase_invoice}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","admin","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/purchase-invoices\/{purchase_invoice}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","admin","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/admin\/purchase-invoices\/{purchase_invoice}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/admin\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","admin","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/users","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/users","host":["{{base_url}}"],"path":["api","manager","users"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/domains","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/domains","host":["{{base_url}}"],"path":["api","manager","domains"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/domains\/{domain}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/domains\/:domain","host":["{{base_url}}"],"path":["api","manager","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/domains\/{domain}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/domains\/:domain","host":["{{base_url}}"],"path":["api","manager","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/domains\/{domain}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/domains\/:domain","host":["{{base_url}}"],"path":["api","manager","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/payments","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/payments","host":["{{base_url}}"],"path":["api","manager","payments"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/payments","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/payments","host":["{{base_url}}"],"path":["api","manager","payments"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/payments\/{payment}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/payments\/:payment","host":["{{base_url}}"],"path":["api","manager","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/payments\/{payment}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/payments\/:payment","host":["{{base_url}}"],"path":["api","manager","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/payments\/{payment}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/payments\/:payment","host":["{{base_url}}"],"path":["api","manager","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/payments\/{payment}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/payments\/:payment","host":["{{base_url}}"],"path":["api","manager","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/purchase-invoices","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/purchase-invoices","host":["{{base_url}}"],"path":["api","manager","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/purchase-invoices","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/purchase-invoices","host":["{{base_url}}"],"path":["api","manager","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/purchase-invoices\/{purchase_invoice}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","manager","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/purchase-invoices\/{purchase_invoice}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","manager","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/purchase-invoices\/{purchase_invoice}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","manager","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/manager\/purchase-invoices\/{purchase_invoice}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/manager\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","manager","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/domains","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/domains","host":["{{base_url}}"],"path":["api","employee","domains"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/domains\/{domain}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/domains\/:domain","host":["{{base_url}}"],"path":["api","employee","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/domains\/{domain}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/domains\/:domain","host":["{{base_url}}"],"path":["api","employee","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/domains\/{domain}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/domains\/:domain","host":["{{base_url}}"],"path":["api","employee","domains",":domain"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/payments","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/payments","host":["{{base_url}}"],"path":["api","employee","payments"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/payments","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/payments","host":["{{base_url}}"],"path":["api","employee","payments"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/payments\/{payment}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/payments\/:payment","host":["{{base_url}}"],"path":["api","employee","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/payments\/{payment}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/payments\/:payment","host":["{{base_url}}"],"path":["api","employee","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/payments\/{payment}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/payments\/:payment","host":["{{base_url}}"],"path":["api","employee","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/payments\/{payment}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/payments\/:payment","host":["{{base_url}}"],"path":["api","employee","payments",":payment"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/purchase-invoices","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/purchase-invoices","host":["{{base_url}}"],"path":["api","employee","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/purchase-invoices","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/purchase-invoices","host":["{{base_url}}"],"path":["api","employee","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/purchase-invoices\/{purchase_invoice}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","employee","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/purchase-invoices\/{purchase_invoice}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","employee","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/purchase-invoices\/{purchase_invoice}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","employee","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/employee\/purchase-invoices\/{purchase_invoice}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/employee\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","employee","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/accounts\/purchase-invoices","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/accounts\/purchase-invoices","host":["{{base_url}}"],"path":["api","accounts","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/accounts\/purchase-invoices","request":{"method":"POST","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/accounts\/purchase-invoices","host":["{{base_url}}"],"path":["api","accounts","purchase-invoices"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/accounts\/purchase-invoices\/{purchase_invoice}","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/accounts\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","accounts","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/accounts\/purchase-invoices\/{purchase_invoice}","request":{"method":"PUT","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/accounts\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","accounts","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/accounts\/purchase-invoices\/{purchase_invoice}","request":{"method":"PATCH","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/accounts\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","accounts","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/accounts\/purchase-invoices\/{purchase_invoice}","request":{"method":"DELETE","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/accounts\/purchase-invoices\/:purchase_invoice","host":["{{base_url}}"],"path":["api","accounts","purchase-invoices",":purchase_invoice"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}},{"name":"api\/user","request":{"method":"GET","header":[{"key":"Accept","value":"application\/json"},{"key":"Content-Type","value":"application\/json"}],"url":{"raw":"{{base_url}}\/api\/user","host":["{{base_url}}"],"path":["api","user"],"variable":[]},"description":""},"response":[],"protocolProfileBehavior":{"disableBodyPruning":false}}],"event":[]}
+{
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost"
+    }
+  ],
+  "info": {
+    "name": "2026_09_09_102551_laravel_collection.json",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "api/register",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/register",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "register"
+              ],
+              "variable": []
+            },
+            "description": ""
+          },
+          "response": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": false
+          }
+        },
+        {
+          "name": "api/login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "login"
+              ],
+              "variable": []
+            },
+            "description": ""
+          },
+          "response": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": false
+          }
+        },
+        {
+          "name": "api/logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/logout",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "logout"
+              ],
+              "variable": []
+            },
+            "description": ""
+          },
+          "response": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": false
+          }
+        },
+        {
+          "name": "api/user",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/user",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "user"
+              ],
+              "variable": []
+            },
+            "description": ""
+          },
+          "response": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "Branches",
+          "item": [
+            {
+              "name": "api/admin/branches",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/branches",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "branches"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/branches",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/branches",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "branches"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/branches/{branch}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/branches/:branch",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "branches",
+                    ":branch"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/branches/{branch}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/branches/:branch",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "branches",
+                    ":branch"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/branches/{branch}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/branches/:branch",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "branches",
+                    ":branch"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/branches/{branch}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/branches/:branch",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "branches",
+                    ":branch"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Users",
+          "item": [
+            {
+              "name": "api/admin/users",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/users",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "users"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/users",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/users",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "users"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/users/{user}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/users/:user",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "users",
+                    ":user"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/users/{user}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/users/:user",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "users",
+                    ":user"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/users/{user}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/users/:user",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "users",
+                    ":user"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/users/{user}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/users/:user",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "users",
+                    ":user"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Payments",
+          "item": [
+            {
+              "name": "api/admin/payments",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/payments",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "payments"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/payments",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/payments",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "payments"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/payments/{payment}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/payments/{payment}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/payments/{payment}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/payments/{payment}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Purchase Invoices",
+          "item": [
+            {
+              "name": "api/admin/purchase-invoices",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/purchase-invoices",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/admin/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/admin/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "admin",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manager",
+      "item": [
+        {
+          "name": "Users",
+          "item": [
+            {
+              "name": "api/manager/users",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/users",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "users"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Domains",
+          "item": [
+            {
+              "name": "api/manager/domains",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/domains",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "domains"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/domains/{domain}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/domains/{domain}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/domains/{domain}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Payments",
+          "item": [
+            {
+              "name": "api/manager/payments",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/payments",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "payments"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/payments",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/payments",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "payments"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/payments/{payment}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/payments/{payment}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/payments/{payment}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/payments/{payment}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Purchase Invoices",
+          "item": [
+            {
+              "name": "api/manager/purchase-invoices",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/purchase-invoices",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/manager/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/manager/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "manager",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Employee",
+      "item": [
+        {
+          "name": "Domains",
+          "item": [
+            {
+              "name": "api/employee/domains",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/domains",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "domains"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/domains/{domain}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/domains/{domain}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/domains/{domain}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Payments",
+          "item": [
+            {
+              "name": "api/employee/payments",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/payments",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "payments"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/payments",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/payments",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "payments"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/payments/{payment}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/payments/{payment}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/payments/{payment}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/payments/{payment}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/payments/:payment",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "payments",
+                    ":payment"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Purchase Invoices",
+          "item": [
+            {
+              "name": "api/employee/purchase-invoices",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/purchase-invoices",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/employee/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/employee/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "employee",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accounts",
+      "item": [
+        {
+          "name": "Purchase Invoices",
+          "item": [
+            {
+              "name": "api/accounts/purchase-invoices",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/accounts/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "accounts",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/accounts/purchase-invoices",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/accounts/purchase-invoices",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "accounts",
+                    "purchase-invoices"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/accounts/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/accounts/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "accounts",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/accounts/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/accounts/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "accounts",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/accounts/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/accounts/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "accounts",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/accounts/purchase-invoices/{purchase_invoice}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/accounts/purchase-invoices/:purchase_invoice",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "accounts",
+                    "purchase-invoices",
+                    ":purchase_invoice"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Domains",
+      "item": [
+        {
+          "name": "Bulk Update",
+          "item": [
+            {
+              "name": "api/domains/bulk-update",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/domains/bulk-update",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "domains",
+                    "bulk-update"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Domains",
+          "item": [
+            {
+              "name": "api/domains",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/domains",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "domains"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/domains",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/domains",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "domains"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/domains/{domain}",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/domains/{domain}",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/domains/{domain}",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            },
+            {
+              "name": "api/domains/{domain}",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/api/domains/:domain",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "api",
+                    "domains",
+                    ":domain"
+                  ],
+                  "variable": []
+                },
+                "description": ""
+              },
+              "response": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "event": []
+}

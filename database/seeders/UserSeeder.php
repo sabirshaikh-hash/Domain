@@ -17,46 +17,66 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         // Create Super Admin
-        User::create([
-            'name' => 'Super Admin',
-            'email' => 'admin@example.com',
-            'password' => Hash::make('password'),
-            'role' => 'superadmin',
-            // branch_id is nullable or doesn't apply to superadmin
-        ]);
+        User::firstOrCreate(
+            ['email' => 'admin@example.com'],
+            [
+                'name' => 'Super Admin',
+                'password' => Hash::make('password'),
+                'role' => 'superadmin',
+            ]
+        );
 
         // Create Manager
-        $managerUser = User::create([
-            'name' => 'Ahmedabad Manager',
-            'email' => 'manager@example.com',
-            'password' => Hash::make('password'),
-            'role' => 'manager',
-            'branch_id' => 1,
-        ]);
+        $managerUser = User::firstOrCreate(
+            ['email' => 'manager@example.com'],
+            [
+                'name' => 'Ahmedabad Manager',
+                'password' => Hash::make('password'),
+                'role' => 'manager',
+                'branch_id' => 1,
+            ]
+        );
 
-        Manager::create([
-            'user_id' => $managerUser->id,
-            'name' => $managerUser->name,
-            'email' => $managerUser->email,
-            'phone_number' => '1234567890',
-            'branch_id' => 1,
-        ]);
+        Manager::firstOrCreate(
+            ['user_id' => $managerUser->id],
+            [
+                'name' => $managerUser->name,
+                'email' => $managerUser->email,
+                'phone_number' => '1234567890',
+                'branch_id' => 1,
+            ]
+        );
 
         // Create Employee
-        $employeeUser = User::create([
-            'name' => 'Ahmedabad Employee',
-            'email' => 'employee@example.com',
-            'password' => Hash::make('password'),
-            'role' => 'employee',
-            'branch_id' => 1,
-        ]);
+        $employeeUser = User::firstOrCreate(
+            ['email' => 'employee@example.com'],
+            [
+                'name' => 'Ahmedabad Employee',
+                'password' => Hash::make('password'),
+                'role' => 'employee',
+                'branch_id' => 1,
+            ]
+        );
 
-        Employee::create([
-            'user_id' => $employeeUser->id,
-            'name' => $employeeUser->name,
-            'email' => $employeeUser->email,
-            'phone_number' => '0987654321',
-            'branch_id' => 1,
-        ]);
+        Employee::firstOrCreate(
+            ['user_id' => $employeeUser->id],
+            [
+                'name' => $employeeUser->name,
+                'email' => $employeeUser->email,
+                'phone_number' => '0987654321',
+                'branch_id' => 1,
+            ]
+        );
+
+        // Create Accounts
+        User::firstOrCreate(
+            ['email' => 'accounts@example.com'],
+            [
+                'name' => 'Accounts',
+                'password' => Hash::make('password'),
+                'role' => 'accounts',
+                'branch_id' => 1,
+            ]
+        );
     }
 }

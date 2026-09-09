@@ -42,7 +42,7 @@ class UserController extends Controller
             'name'      => 'required|string|max:255',
             'email'     => 'required|string|email|max:255|unique:users',
             'password'  => 'required|string|min:8',
-            'role'      => 'required|in:superadmin,manager,employee',
+            'role'      => 'required|in:superadmin,manager,employee,accounts',
             'branch_id' => 'required|exists:branches,id',
         ]);
 
@@ -76,7 +76,7 @@ class UserController extends Controller
             'name'      => 'sometimes|required|string|max:255',
             'email'     => 'sometimes|required|string|email|max:255|unique:users,email,' . $user->id,
             'password'  => 'sometimes|nullable|string|min:8',
-            'role'      => 'sometimes|required|in:superadmin,manager,employee',
+            'role'      => 'sometimes|required|in:superadmin,manager,employee,accounts',
             'branch_id' => 'sometimes|required|exists:branches,id',
         ]);
 
