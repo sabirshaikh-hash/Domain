@@ -23,16 +23,22 @@ Route::get('/preview/payment-added', function () {
 });
 
 // Fallback route to serve storage files with CORS headers when the physical symlink is removed
-Route::get('public_storage/{path}', function ($path) {
+Route::any('public_storage/{path}', function ($path) {
     $filePath = storage_path("app/public/{$path}");
 
     if (!file_exists($filePath)) {
         abort(404);
     }
 
-    return response()->file($filePath, [
+    $headers = [
         'Access-Control-Allow-Origin' => '*',
         'Access-Control-Allow-Methods' => 'GET, POST, OPTIONS',
         'Access-Control-Allow-Headers' => 'Origin, X-Requested-With, Content-Type, Accept, Authorization',
-    ]);
+    ];
+
+    if (request()->isMethod('OPTIONS')) {
+        return response('', 200, $headers);
+    }
+
+    return response()->file($filePath, $headers);
 })->where('path', '.*');
