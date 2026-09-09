@@ -14,10 +14,25 @@ Route::get('/preview/domain-created', function () {
 
 Route::get('/preview/domain-expiry/{days?}', function ($days = 7) {
     $domain = App\Models\Domain::first();
-    return new App\Mail\DomainExpiryMail($domain, (int)$days);
+    return new App\Mail\DomainExpiryMail($domain, (int) $days);
 });
 
 Route::get('/preview/payment-added', function () {
     $payment = App\Models\Payment::with('domain')->first();
     return new App\Mail\PaymentAddedMail($payment);
 });
+
+// Fallback route to serve storage files with CORS headers when the physical symlink is removed
+Route::get('public_storage/{path}', function ($path) {
+    $filePath = storage_path("app/public/{$path}");
+
+    if (!file_exists($filePath)) {
+        abort(404);
+    }
+
+    return response()->file($filePath, [
+        'Access-Control-Allow-Origin' => '*',
+        'Access-Control-Allow-Methods' => 'GET, POST, OPTIONS',
+        'Access-Control-Allow-Headers' => 'Origin, X-Requested-With, Content-Type, Accept, Authorization',
+    ]);
+})->where('path', '.*');
