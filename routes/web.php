@@ -32,8 +32,8 @@ Route::any('public_storage/{path}', function ($path) {
 
     $headers = [
         'Access-Control-Allow-Origin' => '*',
-        'Access-Control-Allow-Methods' => 'GET, POST, OPTIONS',
-        'Access-Control-Allow-Headers' => 'Origin, X-Requested-With, Content-Type, Accept, Authorization',
+        'Access-Control-Allow-Methods' => '*',
+        'Access-Control-Allow-Headers' => '*',
     ];
 
     if (request()->isMethod('OPTIONS')) {
