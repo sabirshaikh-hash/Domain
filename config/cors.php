@@ -19,11 +19,11 @@ return [
 
   'allowed_methods' => ['*'],
 
-  'allowed_origins' => ['*','https://domain.anvisclients.com/'],
+  'allowed_origins' => ['*', 'https://domain.anvisclients.com', 'http://localhost:3000'],
 
   'allowed_origins_patterns' => [],
 
-  'allowed_headers' => ['*'],
+  'allowed_headers' => ['*', 'Access-Control-Allow-Origin'],
 
   'exposed_headers' => [],
 
